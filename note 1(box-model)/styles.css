@@ -1,0 +1,31 @@
+.flexbox-container {
+  background-color: aqua;
+  display: flex;
+  /*flex-wrap: wrap; /* to wrap items in smaller viewports*/
+  /*justify-content: center; /*horizonal alignment*/
+  /*align-items: center ; /*vertical alignment*/
+  /*align-content: flex-start; /* content in flex cont alignment*/
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+}
+
+.flexbox-item1 {
+  min-height: 100px;
+  /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0; */
+  /* flex: 1; */
+}
+
+.flexbox-item2 {
+  min-height: 200px;
+}
+
+.flexbox-item3 {
+  min-height: 300px;
+}
